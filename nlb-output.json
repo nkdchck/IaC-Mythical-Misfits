@@ -1,0 +1,19 @@
+LoadBalancers:
+- AvailabilityZones:
+  - LoadBalancerAddresses: []
+    SubnetId: subnet-0df7402f5212e7f0c
+    ZoneName: us-east-1a
+  - LoadBalancerAddresses: []
+    SubnetId: subnet-0a7416f0deff8ec25
+    ZoneName: us-east-1b
+  CanonicalHostedZoneId: Z26RNL4JYFTOTI
+  CreatedTime: '2020-11-17T13:04:08.115000+00:00'
+  DNSName: mysfits-nlb-8de212d1ee411720.elb.us-east-1.amazonaws.com
+  IpAddressType: ipv4
+  LoadBalancerArn: arn:aws:elasticloadbalancing:us-east-1:959910143348:loadbalancer/net/mysfits-nlb/8de212d1ee411720
+  LoadBalancerName: mysfits-nlb
+  Scheme: internet-facing
+  State:
+    Code: provisioning
+  Type: network
+  VpcId: vpc-0011729aeebeb8796

@@ -1,0 +1,17 @@
+TargetGroups:
+- HealthCheckEnabled: true
+  HealthCheckIntervalSeconds: 10
+  HealthCheckPath: /
+  HealthCheckPort: traffic-port
+  HealthCheckProtocol: HTTP
+  HealthCheckTimeoutSeconds: 6
+  HealthyThresholdCount: 3
+  Matcher:
+    HttpCode: 200-399
+  Port: 8080
+  Protocol: TCP
+  TargetGroupArn: arn:aws:elasticloadbalancing:us-east-1:959910143348:targetgroup/MythicalMysfits-TargetGroup/aa913300df9086d9
+  TargetGroupName: MythicalMysfits-TargetGroup
+  TargetType: ip
+  UnhealthyThresholdCount: 3
+  VpcId: vpc-0011729aeebeb8796

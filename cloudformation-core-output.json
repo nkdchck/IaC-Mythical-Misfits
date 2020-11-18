@@ -1,0 +1,65 @@
+Stacks:
+- Capabilities:
+  - CAPABILITY_NAMED_IAM
+  CreationTime: '2020-11-16T13:24:08.676000+00:00'
+  Description: This stack deploys the core network infrastructure and IAM resources
+    to be used for a service hosted in Amazon ECS using AWS Fargate.
+  DisableRollback: false
+  DriftInformation:
+    StackDriftStatus: NOT_CHECKED
+  EnableTerminationProtection: false
+  NotificationARNs: []
+  Outputs:
+  - Description: REPLACE_ME_ACCOUNT_ID
+    ExportName: MythicalMysfitsCoreStack:CurrentAccount
+    OutputKey: CurrentAccount
+    OutputValue: '959910143348'
+  - Description: REPLACE_ME_SECURITY_GROUP_ID
+    ExportName: MythicalMysfitsCoreStack:FargateContainerSecurityGroup
+    OutputKey: FargateContainerSecurityGroup
+    OutputValue: sg-06c939021eb96902c
+  - Description: REPLACE_ME_PUBLIC_SUBNET_ONE
+    ExportName: MythicalMysfitsCoreStack:PublicSubnetOne
+    OutputKey: PublicSubnetOne
+    OutputValue: subnet-0df7402f5212e7f0c
+  - Description: REPLACE_ME_ECS_TASK_ROLE_ARN
+    ExportName: MythicalMysfitsCoreStack:ECSTaskRole
+    OutputKey: ECSTaskRole
+    OutputValue: arn:aws:iam::959910143348:role/MythicalMysfitsCoreStack-ECSTaskRole-XZJ4TAL81NKN
+  - Description: REPLACE_ME_PRIVATE_SUBNET_TWO
+    ExportName: MythicalMysfitsCoreStack:PrivateSubnetTwo
+    OutputKey: PrivateSubnetTwo
+    OutputValue: subnet-0087ce962cd5651ec
+  - Description: REPLACE_ME_REGION
+    ExportName: MythicalMysfitsCoreStack:CurrentRegion
+    OutputKey: CurrentRegion
+    OutputValue: us-east-1
+  - Description: REPLACE_ME_VPC_ID
+    ExportName: MythicalMysfitsCoreStack:VPCId
+    OutputKey: VPCId
+    OutputValue: vpc-0011729aeebeb8796
+  - Description: REPLACE_ME_PUBLIC_SUBNET_TWO
+    ExportName: MythicalMysfitsCoreStack:PublicSubnetTwo
+    OutputKey: PublicSubnetTwo
+    OutputValue: subnet-0a7416f0deff8ec25
+  - Description: REPLACE_ME_CODEBUILD_ROLE_ARN
+    ExportName: MythicalMysfitsCoreStack:MythicalMysfitsServiceCodeBuildServiceRole
+    OutputKey: CodeBuildRole
+    OutputValue: arn:aws:iam::959910143348:role/MythicalMysfitsServiceCodeBuildServiceRole
+  - Description: REPLACE_ME_CODEPIPELINE_ROLE_ARN
+    ExportName: MythicalMysfitsCoreStack:MythicalMysfitsServiceCodePipelineServiceRole
+    OutputKey: CodePipelineRole
+    OutputValue: arn:aws:iam::959910143348:role/MythicalMysfitsServiceCodePipelineServiceRole
+  - Description: REPLACE_ME_ECS_SERVICE_ROLE_ARN
+    ExportName: MythicalMysfitsCoreStack:EcsServiceRole
+    OutputKey: EcsServiceRole
+    OutputValue: arn:aws:iam::959910143348:role/MythicalMysfitsCoreStack-EcsServiceRole-CD2FR6326LZV
+  - Description: REPLACE_ME_PRIVATE_SUBNET_ONE
+    ExportName: MythicalMysfitsCoreStack:PrivateSubnetOne
+    OutputKey: PrivateSubnetOne
+    OutputValue: subnet-0f04be8e87b4b4105
+  RollbackConfiguration: {}
+  StackId: arn:aws:cloudformation:us-east-1:959910143348:stack/MythicalMysfitsCoreStack/01c0dfd0-280f-11eb-83eb-0ea47a628cf7
+  StackName: MythicalMysfitsCoreStack
+  StackStatus: CREATE_COMPLETE
+  Tags: []
